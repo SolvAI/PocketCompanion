@@ -21,8 +21,8 @@ REQUIREMENTS
 • 8 GB of RAM minimum, 12 GB recommended
 • About 6 GB of free storage
 
-CONTENT NOTICE
-The default model has had its refusals removed, so it can say things a filtered assistant would not. Intended for adults.
+ABOUT THE MODEL
+The default model has had its refusals removed, so it answers more freely than a filtered assistant.
 
 PocketCompanion is free and open source (MIT). Source code, changelog and issues:
 https://github.com/SolvAI/PocketCompanion

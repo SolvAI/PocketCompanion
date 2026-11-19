@@ -113,11 +113,11 @@ PocketCompanion has no backend, no account and no analytics. The only network tr
 one-time download of models from Hugging Face, GitHub and duix.com's public storage. After that
 the app works fully offline.
 
-## Content notice
+## About the model
 
-The default language model is an *abliterated* build of Gemma 4, meaning its refusals were removed.
-It can produce content that a filtered assistant would not. PocketCompanion is intended for adults;
-you are responsible for how you use it.
+The default language model is an *abliterated* build of Gemma 4, meaning its refusals were removed,
+so it answers more freely than a filtered assistant. Her instructions in Settings shape her
+personality and what she talks about.
 
 ## Build from source
 
