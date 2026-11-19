@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="paper">#FFFFFF</color>
+    <color name="ink">#15131C</color>
+    <color name="night">#0E0C14</color>
+    <color name="record">#F0566B</color>
+</resources>

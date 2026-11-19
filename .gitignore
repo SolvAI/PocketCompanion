@@ -1,0 +1,13 @@
+build/
+.gradle/
+.cxx/
+.externalNativeBuild/
+local.properties
+*.iml
+.idea/
+.DS_Store
+captures/
+# Release signing stays on the maintainer's machine
+keystore.properties
+*.jks
+*.keystore

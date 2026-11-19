@@ -1,0 +1,3 @@
+rootProject.name = 'PocketCompanion'
+include ':app'
+include ':duix-sdk'
