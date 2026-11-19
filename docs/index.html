@@ -241,7 +241,7 @@ footer a { color: var(--text); }
       <div class="chips"><span>Android 10+</span><span>arm64</span><span>100% on-device</span><span>MIT licensed</span></div>
     </div>
     <div class="phone">
-      <video id="hero-video" src="media/hero.mp4" poster="media/hero.jpg" autoplay muted loop playsinline preload="metadata"></video>
+      <video id="hero-video" src="media/voice.mp4" poster="media/voice.jpg" autoplay muted loop playsinline preload="metadata"></video>
       <button class="sound" id="hero-sound" type="button" aria-label="Turn sound on">🔇 Tap for sound</button>
     </div>
   </div>
@@ -257,20 +257,20 @@ footer a { color: var(--text); }
   <div class="wrap">
     <div class="section-head">
       <h2>See her in action</h2>
-      <p>Real screen recordings on a mid-range phone, nothing sped up. Turn your sound on.</p>
+      <p>Real screen recordings on a mid-range phone. Turn your sound on. The wait while she looks at a photo is fast-forwarded (it says so on screen) and an avatar-loading pause is cut; everything else is real time.</p>
     </div>
     <div class="demos">
       <article class="demo">
         <video src="media/voice.mp4" poster="media/voice.jpg" controls playsinline preload="none"></video>
-        <div><h3>Talk to her</h3><p>Hold to talk. She transcribes while you speak and answers out loud with lip sync.</p></div>
+        <div><h3>Talk to her</h3><p>Hold to talk. She transcribes while you speak, then answers out loud with lip sync and subtitles.</p></div>
       </article>
       <article class="demo">
         <video src="media/photo.mp4" poster="media/photo.jpg" controls playsinline preload="none"></video>
-        <div><h3>Show her a photo</h3><p>Attach a picture and she reacts to what she sees, still fully offline.</p></div>
+        <div><h3>Show her a photo</h3><p>Attach a picture and she describes what she sees, still fully offline.</p></div>
       </article>
       <article class="demo">
         <video src="media/customize.mp4" poster="media/customize.jpg" controls playsinline preload="none"></video>
-        <div><h3>Make her yours</h3><p>11 avatars, 14 voices, and a personality you write yourself.</p></div>
+        <div><h3>Make her yours</h3><p>Pick one of 11 avatars and 14 voices, and write her personality yourself. Here: a pirate captain.</p></div>
       </article>
     </div>
   </div>
@@ -284,7 +284,7 @@ footer a { color: var(--text); }
     </div>
     <div class="features">
       <div class="feature"><div class="ico">🎭</div><h3>Lip-synced avatar</h3><p>11 realistic digital humans by duix.com whose mouths move with every word.</p></div>
-      <div class="feature"><div class="ico">🧠</div><h3>Local LLM</h3><p>Gemma 4 E2B on llama.cpp. First words in about a second, no server involved.</p></div>
+      <div class="feature"><div class="ico">🧠</div><h3>Local LLM</h3><p>Gemma 4 E2B on llama.cpp. Her reply starts streaming in about half a second, no server involved.</p></div>
       <div class="feature"><div class="ico">🎙️</div><h3>Live transcription</h3><p>NVIDIA Nemotron streaming speech recognition shows what she hears as you talk.</p></div>
       <div class="feature"><div class="ico">🔊</div><h3>Natural voices</h3><p>14 Kokoro voices with American, British, Japanese and Mandarin accents.</p></div>
       <div class="feature"><div class="ico">🖼️</div><h3>Photo understanding</h3><p>Share a picture and she comments on it, thanks to Gemma 4 vision.</p></div>
@@ -310,9 +310,9 @@ footer a { color: var(--text); }
     </div>
     <p class="note">Measured on a POCO X8 Pro (MediaTek MT6899, 12 GB RAM), CPU only.</p>
     <div class="stats" style="margin-top: 22px;">
-      <div class="stat"><b>~1 s</b><span>to her first words on a typed message</span></div>
+      <div class="stat"><b>~4 s</b><span>from your last word to her voice</span></div>
       <div class="stat"><b>0.2 s</b><span>from releasing the mic to text ready</span></div>
-      <div class="stat"><b>~10 s</b><span>to react to a photo</span></div>
+      <div class="stat"><b>10-15 s</b><span>to react to a photo</span></div>
       <div class="stat"><b>0 bytes</b><span>of your conversations sent anywhere</span></div>
     </div>
   </div>
@@ -358,7 +358,8 @@ footer a { color: var(--text); }
     </div>
     <div style="max-width: 520px;">
       <b>Powered by Duix.com</b> · built with llama.cpp, sherpa-onnx, Gemma 4, Kokoro and NVIDIA Nemotron Speech.
-      See <a href="https://github.com/SolvAI/PocketCompanion/blob/main/THIRD_PARTY_NOTICES.md">third-party notices</a>.
+      See <a href="https://github.com/SolvAI/PocketCompanion/blob/main/THIRD_PARTY_NOTICES.md">third-party notices</a>.<br>
+      Demo photo: "Monument valley" by OrbiteLambda, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from the Ubuntu wallpapers.
     </div>
   </div>
 </footer>

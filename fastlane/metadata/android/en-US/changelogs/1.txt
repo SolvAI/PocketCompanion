@@ -1,0 +1,6 @@
+First public release.
+• Asks before the one-time 5 GB model download and checks free space
+• Speech recognition model downloads automatically
+• Six new English voices (American and British)
+• Editable instructions (system prompt) in Settings
+• New app icon

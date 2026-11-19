@@ -27,6 +27,13 @@ PocketCompanion's own code is MIT licensed (see `LICENSE`). It is built on the w
 | NVIDIA Nemotron Speech Streaming en 0.6B, 560 ms chunks, int8 (sherpa-onnx export) | [nvidia/nemotron-speech-streaming-en-0.6b](https://huggingface.co/nvidia/nemotron-speech-streaming-en-0.6b), export from [sherpa-onnx asr-models](https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models), mirrored unmodified on this repo's [`speech-model-v1`](https://github.com/SolvAI/PocketCompanion/releases/tag/speech-model-v1) release | Licensed by NVIDIA Corporation under the [NVIDIA Open Model License](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/) |
 | Avatar models (11 stock avatars) and the avatar base config | duix.com public downloads | duix.com Community License |
 
+## Website and README demo videos
+
+| Material | Author | License |
+|---|---|---|
+| "Monument valley" illustration, shown as the photo sent in `docs/media/photo.mp4` | OrbiteLambda, via the Ubuntu wallpapers package | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| The avatars in the videos | duix.com stock avatars | duix.com Community License |
+
 ## duix.com Community License: what it asks for
 
 - Keep a copy of the license with the duix.com materials (`duix-sdk/LICENSE.md`) and the attribution in `NOTICE`.

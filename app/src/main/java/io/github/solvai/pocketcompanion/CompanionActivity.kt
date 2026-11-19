@@ -747,7 +747,7 @@ class CompanionActivity : AppCompatActivity(), ChatClient.Listener, SettingsShee
         const val REQUEST_MIC = 1
         const val REQUEST_IMAGE = 2
         const val MIN_SPEECH_SECONDS = 0.4 // shorter is an accidental tap
-        const val MAX_IMAGE_SIDE = 768
+        const val MAX_IMAGE_SIDE = 512
         const val MIN_RECOMMENDED_RAM = 7_000_000_000L
         const val CAPTION_LINGER_MS = 5_000L
         const val TTS_THREADS = 4 // measured best; 6 and 8 are slower on this 4+4 core CPU

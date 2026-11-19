@@ -1,0 +1,28 @@
+PocketCompanion is a private AI companion that lives entirely on your phone. Talk to her by voice, type, or show her a photo, and she answers out loud with a realistic, lip-synced avatar and big word-by-word subtitles.
+
+Everything runs on your phone's CPU: the language model, speech recognition, the voice and the avatar. After a one-time model download (about 5 GB, Wi-Fi recommended) it works in airplane mode. No account, no subscription, no analytics, and your conversations never leave the device.
+
+WHAT SHE CAN DO
+• Voice chat: hold the button and talk. Live transcription shows what she understood while you are still speaking.
+• Text chat: type a message and she answers out loud, with word-by-word subtitles.
+• Photos: attach a picture and she describes and reacts to what she sees.
+• Lip sync: 11 realistic digital humans whose mouths move with every word.
+• 14 natural voices: American, British, Japanese-accented and Mandarin-accented.
+• Make her yours: rewrite her instructions (system prompt) in Settings to change her personality.
+
+UNDER THE HOOD
+• Language model: Gemma 4 E2B (abliterated, Q4_K_M) with vision, through llama.cpp
+• Speech recognition: NVIDIA Nemotron Speech Streaming 0.6B, through sherpa-onnx
+• Voice: Kokoro 82M, through sherpa-onnx
+• Avatar: Duix-Mobile by duix.com (Powered by Duix.com)
+
+REQUIREMENTS
+• Android 10 or newer, 64-bit ARM
+• 8 GB of RAM minimum, 12 GB recommended
+• About 6 GB of free storage
+
+CONTENT NOTICE
+The default model has had its refusals removed, so it can say things a filtered assistant would not. Intended for adults.
+
+PocketCompanion is free and open source (MIT). Source code, changelog and issues:
+https://github.com/SolvAI/PocketCompanion

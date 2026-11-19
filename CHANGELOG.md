@@ -14,8 +14,11 @@ First public release, renamed PocketCompanion (package `io.github.solvai.pocketc
 - Credits in Settings, including "Powered by Duix.com", with a link to the project.
 - New app icon.
 - Signed release APK.
+- Demo videos with sound, recorded with `scripts/record_take.sh` and assembled with `scripts/assemble_demo.py`.
 
 ### Changed
+- Photos are sent to the model at 512 px instead of 768 px. Gemma 4 describes them just as well and
+  answers about twice as fast (first text after 10.4 s instead of 21 s on the test phone).
 - The Duix SDK is trimmed to arm64 and the llama.cpp libraries are stripped of debug symbols, so the
   source tree is about 5x smaller. The APK is unchanged in behavior.
 

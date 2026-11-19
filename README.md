@@ -17,10 +17,24 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license"></a>
 </p>
 
-<p align="center">
-  <a href="https://solvai.github.io/PocketCompanion/"><img src="docs/assets/og-image.png" width="640" alt="PocketCompanion: a talking AI avatar with word-by-word subtitles, running offline on Android"></a><br>
-  <a href="https://solvai.github.io/PocketCompanion/"><b>▶ Watch the demos with sound</b></a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://solvai.github.io/PocketCompanion/media/voice.mp4"><img src="docs/media/previews/voice.webp" width="240" alt="Voice chat demo: the user asks what to name a new puppy, the avatar answers out loud with lip sync and subtitles"></a><br>
+      <b>Talk to her</b><br><a href="https://solvai.github.io/PocketCompanion/media/voice.mp4">▶ Watch with sound</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://solvai.github.io/PocketCompanion/media/photo.mp4"><img src="docs/media/previews/photo.webp" width="240" alt="Photo demo: the user sends a picture of red rock buttes and cacti, the avatar describes it"></a><br>
+      <b>Show her a photo</b><br><a href="https://solvai.github.io/PocketCompanion/media/photo.mp4">▶ Watch with sound</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://solvai.github.io/PocketCompanion/media/customize.mp4"><img src="docs/media/previews/customize.webp" width="240" alt="Customization demo: picking an avatar, a voice and pirate-captain instructions in Settings"></a><br>
+      <b>Make her yours</b><br><a href="https://solvai.github.io/PocketCompanion/media/customize.mp4">▶ Watch with sound</a>
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub>Real screen recordings on a POCO X8 Pro, CPU only. The wait while she looks at the photo is fast-forwarded 6× (marked on screen) and an avatar-loading pause is cut.</sub></p>
 
 PocketCompanion puts a private AI companion in your pocket. She sees you through photos, hears you
 through the microphone and answers out loud, with a realistic avatar whose lips move with her voice.
@@ -30,7 +44,7 @@ phone's CPU. After a one-time model download, it works in airplane mode.
 ## Features
 
 - **Talking avatar with lip sync.** 11 realistic digital humans by [duix.com](https://duix.com), rendered on device.
-- **Local LLM.** Gemma 4 E2B (abliterated, Q4_K_M) through [llama.cpp](https://github.com/ggml-org/llama.cpp). First words in about 1 second.
+- **Local LLM.** Gemma 4 E2B (abliterated, Q4_K_M) through [llama.cpp](https://github.com/ggml-org/llama.cpp). Her reply starts streaming in about half a second.
 - **Voice chat with live transcription.** Hold to talk: NVIDIA Nemotron streaming speech recognition shows what she understood while you are still speaking.
 - **Natural voices.** 14 [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M) voices: American, British, Japanese-accented and Mandarin-accented.
 - **She understands photos.** Attach a picture and she reacts to what she sees (Gemma 4 vision).
@@ -79,10 +93,11 @@ Measured on a POCO X8 Pro (4 + 4 core MediaTek MT6899, 12 GB RAM), CPU only:
 |---|---|
 | Cold start to ready (models already downloaded) | about 20 s |
 | Speech recognition speed | 0.3-0.45x realtime; text ready 0.2-0.3 s after you let go |
-| First reply text | about 0.9 s (1.9 s on the first turn) |
+| First reply text | 0.3-1.3 s |
+| From your last word to her voice | about 4-5 s (most of it is synthesizing her first sentence) |
 | Reply generation | about 9-13 tokens/s |
-| Photo question, first reply text | about 10 s |
-| Voice | Kokoro at about 1.3-2x realtime, so there can be short pauses between sentences |
+| Photo question, first reply text | about 10-13 s (photos are sent at 512 px) |
+| Voice | Kokoro needs about 1-2 s of work per second of speech, so there are short pauses between sentences |
 
 ## Make her yours
 
@@ -160,6 +175,9 @@ Conversations are in English. The voices offer American, British, Japanese and M
 [Duix-Mobile](https://github.com/duixcom/Duix-Mobile), under the
 [duix.com Community License](duix-sdk/LICENSE.md). It requires a separate license from duix.com for
 products above 1,000 monthly active users.
+
+Demo photo: "Monument valley" by OrbiteLambda,
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), from the Ubuntu wallpapers.
 
 Also built on [llama.cpp](https://github.com/ggml-org/llama.cpp),
 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx),
